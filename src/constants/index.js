@@ -12,14 +12,13 @@ import {
   git,
   docker,
   postgresql,
- 
   graphql,
   freshShop,
   sponsro,
   chegg,
   credflow,
-  mongoDb
-} from '../assets';
+  mongoDb,
+} from '../assets'
 
 export const navLinks = [
   {
@@ -34,7 +33,7 @@ export const navLinks = [
     id: 'contact',
     title: 'Contact',
   },
-];
+]
 
 const services = [
   {
@@ -44,8 +43,8 @@ const services = [
   {
     title: 'Backend Developer',
     icon: backend,
-  }
-];
+  },
+]
 
 const technologies = [
   {
@@ -100,7 +99,7 @@ const technologies = [
     name: 'MongoDb',
     icon: mongoDb,
   },
-];
+]
 
 const experiences = [
   {
@@ -116,14 +115,14 @@ const experiences = [
     icon: chegg,
     iconBg: '#333333',
     date: 'Mar 2022 - May 2022',
-  }
-];
+  },
+]
 
 const projects = [
   {
     id: 'project-1',
     name: 'FreshShop',
-    description: 'An E-commerce Website',
+    description: 'An Self-made E-commerce Website',
     tags: [
       {
         name: 'ejs',
@@ -149,8 +148,7 @@ const projects = [
   {
     id: 'project-2',
     name: 'Sponsro',
-    description:
-      'A platform to give and find Sponsorship',
+    description: 'A platform to give and find Sponsorship',
     tags: [
       {
         name: 'ejs',
@@ -168,7 +166,7 @@ const projects = [
     image: sponsro,
     repo: 'https://github.com/BFurious/Sponsro-a-Sponsor-Management',
     demo: 'https://sponsro-latest.onrender.com/',
-  }
-];
+  },
+]
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects }
