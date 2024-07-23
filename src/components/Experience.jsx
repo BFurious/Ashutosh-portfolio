@@ -50,6 +50,12 @@ function ExperienceCard({ experience }) {
         >
           {experience.company_name}
         </p>
+        <p
+          className=" text-taupe font-poppins tracking-[0px]"
+          style={{ "font-size":"13px" }}
+        >
+          {experience.brief}
+        </p>
       </div>
     </VerticalTimelineElement>
   )
@@ -96,11 +102,12 @@ function Experience() {
               </div>
             }
           >
+            <div>
             <button
               className="live-demo flex justify-between 
               sm:text-[18px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-3 pr-3 
-              whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
+              whitespace-nowrap gap-1 sm:w-[100%] sm:h-[100%] 
               w-[125px] h-[46px] rounded-[10px] bg-jetLight 
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
@@ -130,6 +137,14 @@ function Experience() {
                 w-[23px] h-[23px] object-contain"
               />
             </button>
+            
+            <p
+          className=" text-taupe font-poppins tracking-[0px]"
+          style={{ "font-size":"13px" }}
+        >
+          A dynamic and results-oriented software developer with over a year of industry experience, specializing in full-stack development to streamline financial processes and enhance user experiences. Proficient in leveraging cutting-edge technologies and frameworks such as the MERN Stack, SQL, NoSQL (MongoDB), and TypeScript, I am dedicated to delivering high-quality code and optimizing performance to drive project success and client satisfaction. I collaborate effectively with cross-functional teams to translate complex business requirements into scalable technical solutions.
+        </p>
+        </div>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
