@@ -26,6 +26,10 @@ export const navLinks = [
     title: 'About',
   },
   {
+    id: 'skills',
+    title: 'Skills',
+  },
+  {
     id: 'projects',
     title: 'Projects',
   },
@@ -108,6 +112,7 @@ const experiences = [
     icon: credflow,
     iconBg: '#333333',
     date: 'Jan 2023 - April 2024',
+    brief: "As a key contributor, I have managed microservices and third-party integrations, developed REST APIs, and optimized various product features including cron jobs, automated tasks, Redis, and database-to-file system processes. My role involved collaborating with cross-functional teams to ensure seamless integration of new technologies and solutions, while also providing technical guidance and mentorship to junior team members. Notable achievements include a 70% reduction in database expenses and significant improvements in user experience through faster compilation times. Additionally, I have received commendations from senior management for my coding structure, optimization efforts, and delivery of bug-free features."
   },
   {
     title: 'Subject matter Expert',
@@ -115,6 +120,7 @@ const experiences = [
     icon: chegg,
     iconBg: '#333333',
     date: 'Mar 2022 - May 2022',
+    brief: "My role involved providing expert knowledge and solutions in my field of expertise to support students in their learning journey. I developed right, detailed solutions for textbook problems and responded to student queries, ensuring clarity and accuracy. Additionally, I collaborated with other experts to review and improve content, contributing to a rich, reliable knowledge base. My achievements include maintaining a high accuracy rate in my solutions, receiving consistently positive feedback from students, and helping to increase student satisfaction and engagement through timely and insightful assistance."
   },
 ]
 
