@@ -119,7 +119,7 @@ const experiences = [
     company_name: 'Chegg',
     icon: chegg,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Mar 2022 - June 2022',
     brief: "My role involved providing expert knowledge and solutions in my field of expertise to support students in their learning journey. I developed right, detailed solutions for textbook problems and responded to student queries, ensuring clarity and accuracy. Additionally, I collaborated with other experts to review and improve content, contributing to a rich, reliable knowledge base. My achievements include maintaining a high accuracy rate in my solutions, receiving consistently positive feedback from students, and helping to increase student satisfaction and engagement through timely and insightful assistance."
   },
 ]
