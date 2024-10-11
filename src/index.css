@@ -37,6 +37,14 @@
   color-scheme: dark;
 }
 
+button {
+  transition: 1s ease-in-out;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
+
 .nav-links::after {
   content: '';
   display: block;

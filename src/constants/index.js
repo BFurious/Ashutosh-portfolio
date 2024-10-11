@@ -18,6 +18,7 @@ import {
   chegg,
   credflow,
   mongoDb,
+  ezycare
 } from '../assets'
 
 export const navLinks = [
@@ -127,15 +128,49 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
+    name: 'EzyCare | Doctor is Live',
+    description: 'A medical apppointment and consultancy platform',
+    tags: [
+      {
+        name: 'ReactJs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'NodeJs',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Prisma',
+        color: 'yellow-text-gradient',
+      },
+      {
+        name: 'Docker',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'Tailwind',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'Redux',
+        color: 'teal-text-gradient',
+      },
+    ],
+    image: ezycare,
+    repo: 'https://github.com/BFurious/EzyCare_frontend',
+    demo: 'https://ezy-care.vercel.app/',
+  },
+  {
+    id: 'project-2',
     name: 'FreshShop',
     description: 'An Self-made E-commerce Website',
     tags: [
       {
-        name: 'ejs',
+        name: 'EJS',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'MongoDb',
         color: 'green-text-gradient',
       },
       {
@@ -143,7 +178,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
       {
-        name: 'javascript',
+        name: 'Docker',
         color: 'yellow-text-gradient',
       },
     ],
@@ -152,12 +187,12 @@ const projects = [
     demo: 'https://freshshop-tp39.onrender.com/',
   },
   {
-    id: 'project-2',
+    id: 'project-3',
     name: 'Sponsro',
     description: 'A platform to give and find Sponsorship',
     tags: [
       {
-        name: 'ejs',
+        name: 'EJS',
         color: 'blue-text-gradient',
       },
       {
@@ -165,7 +200,7 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'JavaScript',
+        name: 'Docker',
         color: 'pink-text-gradient',
       },
     ],

@@ -42,6 +42,8 @@ import chegg from './company/chegg.png'
 
 import freshShop from './projects/freshShop.png'
 import sponsro from './projects/sponsro.png'
+import ezycare from './projects/ezycare.png'
+
 
 export {
   mongoDb,
@@ -82,4 +84,5 @@ export {
   sponsro,
   chegg,
   credflow,
+  ezycare
 }
