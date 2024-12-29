@@ -48,8 +48,8 @@ function Hero() {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Tech Enthusiast <br className="sm:block hidden" />
-              Ps. Full-stack Developer
+              Software Developer <br className="sm:block hidden" />
+              Ps. Tech Enthusiast
             </p>
           </div>
           <div

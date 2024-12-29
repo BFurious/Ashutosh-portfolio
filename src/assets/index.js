@@ -4,13 +4,15 @@ import whiteabstract from './backgrounds/white-abstract.png'
 import worldmap from './backgrounds/world-map.png'
 
 import logo from './logo/logo-black.png'
-import logotext from './logo/logo-text-black.png'
 
 import ashutosh from './personal/ashutosh.png'
 
 import backend from './icons/backend.png'
-import ux from './icons/ux.png'
 import frontend from './icons/frontend.png'
+import devops from './icons/agile.png'
+import testing from './icons/testing.png'
+
+import ux from './icons/ux.png'
 import prototyping from './icons/prototyping.png'
 import github from './icons/github.png'
 import close from './icons/close.png'
@@ -39,6 +41,7 @@ import mongoDb from './tech/mongoDb.png'
 
 import credflow from './company/credflow.png'
 import chegg from './company/chegg.png'
+import freelance from './company/freelance.png'
 
 import freshShop from './projects/freshShop.png'
 import sponsro from './projects/sponsro.png'
@@ -52,11 +55,12 @@ export {
   whiteabstract,
   worldmap,
   logo,
-  logotext,
   ashutosh,
   backend,
-  ux,
   frontend,
+  devops,
+  testing,
+  ux,
   prototyping,
   github,
   close,
@@ -83,6 +87,7 @@ export {
   freshShop,
   sponsro,
   chegg,
+  freelance,
   credflow,
   ezycare
 }

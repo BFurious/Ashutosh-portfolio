@@ -1,6 +1,7 @@
 import {
   frontend,
   backend,
+  devops,
   javascript,
   typescript,
   html,
@@ -18,7 +19,9 @@ import {
   chegg,
   credflow,
   mongoDb,
-  ezycare
+  ezycare, 
+  testing,
+  freelance
 } from '../assets'
 
 export const navLinks = [
@@ -44,10 +47,22 @@ const services = [
   {
     title: 'Frontend Developer',
     icon: frontend,
+    content:"Proficient in HTML, CSS, React, Redux and familiar with Tailwind, NextJs with overall experience more than 1.5 yr in Frontend Development"
   },
   {
     title: 'Backend Developer',
     icon: backend,
+    content:"Proficient in NodeJs, Typescript, ExpressJs, SQL, MongoDb, Sequelize, Redis and familiar with Prisma, Python, Django with overall experience more than 1.5 yr in Backend Development"
+  },
+  {
+    title: 'Dev Operations',
+    icon: devops,
+    content:"Familiar with Docker, Kubernetics, AWS (Lambda, EC2, S3, Automated Jobs) with experience more than 1 yr in DevOps Tech"
+  },
+  {
+    title: 'Automation Testing',
+    icon:testing ,
+    content:"Familiar with Robot Framework with experience of over 1 yr in Automation Testing"
   },
 ]
 
@@ -107,6 +122,14 @@ const technologies = [
 ]
 
 const experiences = [
+  {
+    title: 'Software Developer',
+    company_name: 'Freelance',
+    icon: freelance,
+    iconBg: '#333333',
+    date: 'June 2024',
+    brief: "Working on variety of full-stack developments from developments, deployments to client satisfaction. Creating connections via connecting with projects from clients over world wide. Getting hands on experience on latest market techs. Handling everything single handly and keeping client satisfaction on top."
+  },
   {
     title: 'Software Developer',
     company_name: 'Credflow',
