@@ -19,9 +19,10 @@ import {
   chegg,
   credflow,
   mongoDb,
-  ezycare, 
+  ezycare,
   testing,
-  freelance
+  freelance,
+  hh
 } from '../assets'
 
 export const navLinks = [
@@ -47,22 +48,22 @@ const services = [
   {
     title: 'Frontend Developer',
     icon: frontend,
-    content:"Proficient in HTML, CSS, React, Redux and familiar with Tailwind, NextJs with overall experience more than 1.5 yr in Frontend Development"
+    content: "Proficient in HTML, CSS, React, Redux and familiar with Tailwind, NextJs with overall experience more than 1.5 yr in Frontend Development"
   },
   {
     title: 'Backend Developer',
     icon: backend,
-    content:"Proficient in NodeJs, Typescript, ExpressJs, SQL, MongoDb, Sequelize, Redis and familiar with Prisma, Python, Django with overall experience more than 1.5 yr in Backend Development"
+    content: "Proficient in NodeJs, Typescript, ExpressJs, SQL, MongoDb, Sequelize, Redis and familiar with Prisma, Python, Django with overall experience more than 1.5 yr in Backend Development"
   },
   {
     title: 'Dev Operations',
     icon: devops,
-    content:"Familiar with Docker, Kubernetics, AWS (Lambda, EC2, S3, Automated Jobs) with experience more than 1 yr in DevOps Tech"
+    content: "Familiar with Docker, Kubernetics, AWS (Lambda, EC2, S3, Automated Jobs) with experience more than 1 yr in DevOps Tech"
   },
   {
     title: 'Automation Testing',
-    icon:testing ,
-    content:"Familiar with Robot Framework with experience of over 1 yr in Automation Testing"
+    icon: testing,
+    content: "Familiar with Robot Framework with experience of over 1 yr in Automation Testing"
   },
 ]
 
@@ -151,7 +152,7 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'EzyCare | Doctor is Live',
+    name: 'EzyCare',
     description: 'A medical apppointment and consultancy platform',
     tags: [
       {
@@ -230,6 +231,28 @@ const projects = [
     image: sponsro,
     repo: 'https://github.com/BFurious/Sponsro-a-Sponsor-Management',
     demo: 'https://sponsro-latest.onrender.com/',
+  },
+  {
+    id: 'project-4',
+    name: 'HH Associates',
+    description: 'Porfolio of HHAssociates',
+    tags: [
+      {
+        name: 'EJS',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Html',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: hh,
+    repo: 'https://github.com/BFurious/the-advance-infratech',
+    demo: 'https://hhassociates-nine.vercel.app/',
   },
 ]
 

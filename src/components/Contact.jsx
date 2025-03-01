@@ -5,7 +5,7 @@ import styles from '../styles'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 import { send, sendHover } from '../assets'
-import { EnvVariables } from '../config/envVariables'
+import { EnvVariables } from '../config/envVariables';
 
 const envVariables = new EnvVariables()
 function Contact() {
@@ -73,7 +73,6 @@ function Contact() {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
-
         <form
           ref={formRef}
           onSubmit={handleSubmit}

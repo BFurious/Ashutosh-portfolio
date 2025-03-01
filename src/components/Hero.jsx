@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
 import styles from '../styles'
-import { ashutosh, bwmap, worldmap } from '../assets'
+import { ashutosh, bwmap, worldmap } from '../assets';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -50,7 +52,12 @@ function Hero() {
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               Software Developer <br className="sm:block hidden" />
               Ps. Tech Enthusiast
+
             </p>
+            <div className="flex flex-row gap-2 mt-5">
+              <Link to="https://www.linkedin.com/in/ashutosh-thakur-442079323/" target="_blank" rel="noopener noreferrer"  > <FaLinkedin className='text-[50px] text-black' /></Link>
+              <Link to="https://github.com/BFurious/" target="_blank" rel="noopener noreferrer"> <FaGithub className='text-[50px] text-black' /></Link>
+            </div>
           </div>
           <div
             className="w-screen flex flex-col items-start 
@@ -88,9 +95,7 @@ function Hero() {
         {/* Your image comes here. Feel free to remove image if you don't plan to have one. */}
         <div>
           <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
+            className="absolute bottom-[0px] right-[0vw] ml-[50vw] max-w-full xsm:h-[10vw] sm:h-[50vw] m:h-[10vw]"
             src={ashutosh}
             alt="Ashutosh"
           />

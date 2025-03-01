@@ -46,6 +46,7 @@ import freelance from './company/freelance.png'
 import freshShop from './projects/freshShop.png'
 import sponsro from './projects/sponsro.png'
 import ezycare from './projects/ezycare.png'
+import hh from './projects/hh.png'
 
 
 export {
@@ -89,5 +90,6 @@ export {
   chegg,
   freelance,
   credflow,
-  ezycare
+  ezycare,
+  hh
 }
