@@ -114,7 +114,7 @@ function Experience() {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'https://drive.google.com/file/d/1WKAOtPtvdOJbn5DlLfH-wS5IjAosgIwj/view?usp=sharing',
+                  'https://drive.google.com/file/d/1Xj5bmdjuAQkYAEuhDvpp-iVvmIm2ZEro/view?usp=sharing',
                   '_blank',
                 )
               }
